@@ -30,7 +30,7 @@ function App() {
   
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<Layout/>}>
+      <Route path="Todo-React-App" element={<Layout/>}>
         <Route index element={<Homepage todos={todos} setTodos={setTodos} />} />
         <Route path="about" element={<AboutPage/>} />
         <Route path="completedtodo" element={<Completedpage todos={todos} />} />

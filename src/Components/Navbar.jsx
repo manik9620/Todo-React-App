@@ -10,9 +10,9 @@ function Navbar() {
       </div>
         <nav >
             <ul className={styles.navbarlist}>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/completedtodo">Completed Todos</Link></li>
+                <li><Link to="">Home</Link></li>
+                <li><Link to="about">About</Link></li>
+                <li><Link to="completedtodo">Completed Todos</Link></li>
             </ul>
         </nav>
       
