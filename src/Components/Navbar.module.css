@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .navbarlist {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbarlist li a {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease, font-size 0.3s ease;
+  }
+  
+  .navbarlist li a::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: black; /* Set the initial color of the underline */
+    transition:  0.3s ease; /* Add transition for the underline width */
+  }
+  
+  .navbarlist li a:hover {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .navbarlist li a:hover::before {
+    width: 50%; /* Increase the width to 100% on hover */
+
+  }
+  

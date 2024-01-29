@@ -1,0 +1,41 @@
+/* styles.module.css */
+
+.App {
+  max-width: 700px;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4); /* Add a linear gradient background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2), 0 10px 20px rgba(0, 0, 0, 0.1), 0 15px 25px rgba(0, 0, 0, 0.1); /* Creative box shadow */
+  transition: box-shadow 0.3s ease; /* Add a transition for a smooth effect */
+  margin-top: 30px;
+}
+
+.App:hover {
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3), 0 15px 35px rgba(154, 94, 209, 0.2), 0 25px 45px rgba(0, 0, 0, 0.2); /* Adjusted box shadow on hover */
+}
+
+.heading {
+  text-align: center;
+}
+
+.clearAllTodosBtn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #efefef;
+  color: #232323;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add transitions for smooth hover effect */
+}
+
+.clearAllTodosBtn:hover {
+  color: #ffffff; /* Change text color on hover */
+  background-color: #ff0000; /* Change background color on hover */
+}
